@@ -1,4 +1,26 @@
 /* ini css */
 .nav-container {
-    
+    display: flex;
+    justify-content: flex-end;
+    background-color: #05445e;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px #05445e;
+}
+.nav-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: auto;
+    border-radius: 32px;
+    box-shadow: 0 2px 12px rgb(219, 120, 6);
+}
+.box {
+    width: 100px;
+    height: 20px;
+    background-color: #189ab4;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+    box-shadow: 0 2px 12px #189ab4;
 }
