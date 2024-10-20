@@ -1,38 +1,55 @@
 /* ini css */
+html {
+    scroll-behavior: smooth;
+}
 body {
-    background-color: #dbd3d3;
+    background-color: #E4E0E1;
+    font-family: Arial, sans-serif;
 }
 hr {
-    border: 1px solid #ec8305;
-    box-shadow: 0 4px 4px #ec8305;;
-    
+    border: 1px solid #2c2a29;
+    box-shadow: 0 4px 4px #2c2a29;;
 }
+a {
+    text-decoration: none;
+}
+.img-profile {
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+} 
 .nav-container {
     display: flex;
     justify-content: flex-end;
-    background-color: #0b3469;
+    /* background-color: #0b3469; */
+    background-color: #2c2a29; 
     padding: 10px;
     border-radius: 4px;
     /* box-shadow: 0 4px 16px #091057; */
 }
 .nav-icon {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 30px;
     margin-right: auto;
     border-radius: 4px;
-    box-shadow: 0 2px 12px #ec8305;
+    box-shadow: 0 2px 12px #E4E0E1;
 }
 .box {
     width: 100px;
     height: 20px;
-    background-color: #ec8305;
-    border: 2px solid black;
+    background-color: #2c2a29;
     border-radius: 4px;
     padding: 8px;
     text-align: center;
     /* box-shadow: 0 2px 12px #ec8305; */
-    color: black;
+    color: #E4E0E1;
+    transition: all 0.3s ease; /* Efek transisi saat hover */
+    text-decoration: none;
 }
+.box:hover {
+    color: rgb(224, 126, 14);
+    text-decoration: underline;
+  }
 .slider {
     width: auto; /* Bisa di set nanti 1366px */
     height: 578px;
