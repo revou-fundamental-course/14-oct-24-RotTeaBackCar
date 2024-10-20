@@ -1,26 +1,66 @@
 /* ini css */
+body {
+    background-color: #dbd3d3;
+}
+hr {
+    border: 1px solid #ec8305;
+    box-shadow: 0 4px 4px #ec8305;;
+    
+}
 .nav-container {
     display: flex;
     justify-content: flex-end;
-    background-color: #05445e;
+    background-color: #0b3469;
     padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 16px #05445e;
+    border-radius: 4px;
+    /* box-shadow: 0 4px 16px #091057; */
 }
 .nav-icon {
     width: 40px;
     height: 40px;
     margin-right: auto;
-    border-radius: 32px;
-    box-shadow: 0 2px 12px rgb(219, 120, 6);
+    border-radius: 4px;
+    box-shadow: 0 2px 12px #ec8305;
 }
 .box {
     width: 100px;
     height: 20px;
-    background-color: #189ab4;
+    background-color: #ec8305;
     border: 2px solid black;
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 8px;
     text-align: center;
-    box-shadow: 0 2px 12px #189ab4;
+    /* box-shadow: 0 2px 12px #ec8305; */
+    color: black;
+}
+.slider {
+    width: auto; /* Bisa di set nanti 1366px */
+    height: 578px;
+    overflow: hidden;
+  }
+  .slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    animation: slide 30s infinite;
+  }
+.slides img {
+  width: 100%;
+  height: 100%;
+}
+.text-overlay {
+    position: absolute;
+    top: 100px; /* Jarak dari atas */
+    left: 20px; /* Jarak dari kiri */
+    color: white;
+    padding: 10px;
+    font-size: 32px;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+}
+  100% {
+    transform: translateX(-200%);
+  }
 }
