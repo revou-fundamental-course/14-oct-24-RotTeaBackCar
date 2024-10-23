@@ -9,7 +9,7 @@ mobileMenu.addEventListener('click', () => {
 
 // Section bagian windows prompt untuk mengisi nama di slider
   let username;
-  username = window.prompt("What's your username?");
+  username = window.prompt("Silahkan masukan nama Anda");
 
   // Cek apakah pengguna memasukkan teks
   if (username !== null && username.trim() !== "") {
@@ -22,7 +22,7 @@ mobileMenu.addEventListener('click', () => {
 
   // Section bagian  form isian 
   document.getElementById("dataForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Mengirimpak popup/error kalau datanya tidak diisi
+    event.preventDefault(); // Mengirim popup/error kalau datanya tidak diisi
 
     // Input data elemet id
     const name = document.getElementById("name").value;

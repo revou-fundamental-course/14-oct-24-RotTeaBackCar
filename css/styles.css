@@ -133,10 +133,12 @@ nav ul li a {
 display: flex;
 justify-content: space-around;
 }
+
 .text-about {
 flex: 1;
 text-align: justify;
 }
+
 .img-profile {
 width: auto;
 height: 400px;
@@ -175,14 +177,14 @@ width: 300px;
 padding: 2em;
 }
 
-  /* CSS untuk styling body */
+/* CSS untuk styling body */
   .body-form {
     font-family: Arial, sans-serif;
     margin: 20px;
     display: flex; /* Menggunakan Flexbox */
     justify-content: space-between; /* Memisahkan form dan output */
-    align-items: flex-start; /*Menyelaraskan elemen di bagian atas
-}
+    align-items: flex-start; /*Menyelaraskan elemen di bagian atas */
+  }
 
 /* CSS untuk styling form */
 form {
@@ -191,8 +193,8 @@ form {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     max-width: 400px;
-    flex: 1; /* Memungkinkan form menggunakan ruang yang tersedia */
-    margin-right: 10px; /* Jarak antara form dan output */
+    flex: 1; 
+    margin-right: 10px; /* Jarak antara form dan output pada text area */
 }
 
 label {
@@ -210,7 +212,7 @@ input, select, textarea {
 }
 
 button {
-    background-color: #703aec;
+    background-color: #1a0770;
     color: white;
     padding: 10px;
     border: none;
