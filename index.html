@@ -17,7 +17,7 @@
             <li><a href="#home"><b>Home</b></a></li>
             <li><a href="#profil"><b>Profil</b></a>
             <li><a href="#project"><b>Project</b></a></li>
-            <li><a href="#"><b>Kontak</b></a></li>
+            <li><a href="#kontak"><b>Kontak</b></a></li>
           </ul>
         </nav>
         <div class="menu-toggle" id="mobile-menu">
@@ -116,7 +116,36 @@
       <br>
       <hr>
        <!-- Section Kontak  -->
-        <p>ini akan berisi Form Isian</p>
+        <section id="kontak"></section>
+       <div class="body-form">
+        <div style="display: flex; flex-direction: row; flex: 1;">
+            <form id="dataForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" required>
+        
+                <label for="dob">Tanggal Lahir:</label>
+                <input type="date" id="dob" required>
+        
+                <label for="gender">Jenis Kelamin:</label>
+                <select id="gender" required>
+                    <option value="">Pilih...</option>
+                    <option value="Laki-laki">Laki-laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+    
+                <label for="email">Email:</label>
+                <input type="text" id="email" required>
+        
+                <label for="message">Pesan:</label>
+                <textarea id="message" rows="4" required></textarea>
+        
+                <button type="submit"><b>Submit</b></button>
+            </form>
+        
+            <div id="output" style="display: none;"></div>
+        </div> 
+      </div>
+       
      </main>    
 
      <hr>
